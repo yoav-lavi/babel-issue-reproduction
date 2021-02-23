@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "checkJs": false,
+    "jsx": "react",
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "skipLibCheck": true,
+    "declaration": true,
+    "outDir": "./dist/types",
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
