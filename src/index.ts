@@ -4,7 +4,7 @@ const x = true;
 export const getBrowserInformation = (userAgent: string) => {
   console.log("#");
   try {
-    // uncomment this to make the first log "undefined"
+    // uncomment this and remove the comment to make the first log "undefined"
     // if (x) {
     //   console.log("#");
     // }
